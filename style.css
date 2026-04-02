@@ -69,7 +69,7 @@ body {
 /*right sidebar.*/
 .right_sidebar {
   width: 200px;
-  float: left;
+  float: right;
   }
   
 /*Container for the sidebar image.*/
