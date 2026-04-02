@@ -94,7 +94,7 @@ body {
   
 /*Two columns by default. The "single-column" class can be added to make it one column.*/
 .main {
-  columns: 2;
+  columns: 3;
   column-gap: 25px;
   }
   
