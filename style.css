@@ -4,7 +4,7 @@ body {
   
 /*Everything goes inside here.*/
 .wrapper {
-  width: 1080px;
+  width: 1000px;
   margin: 0 auto;
   }
   
@@ -72,7 +72,7 @@ body {
   }
 /*right sidebar.*/
 .right_sidebar {
-  width: 75px;
+  width: 100px;
   float: right;
   }
   
