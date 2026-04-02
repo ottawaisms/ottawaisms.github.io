@@ -12,9 +12,13 @@ body {
   margin-top: 15px;
   }
   
-.title, .links, .footer {
+.links, .footer {
   text-align: center;
   }
+
+.title {
+  text-align: left;
+}
   
 /*Navigation links.*/
 .links ul {
