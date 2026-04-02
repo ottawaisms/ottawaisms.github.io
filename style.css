@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 15px;
   }
   
 /*Everything goes inside here.*/
@@ -18,6 +18,9 @@ body {
 
 .title {
   text-align: left;
+  border-top: 1px solid #AAAAAA;
+  border-bottom: 1px solid #AAAAAA;
+  background-color: #E7E7E7;
 }
   
 /*Navigation links.*/
@@ -69,11 +72,17 @@ body {
 .left_sidebar {
   width: 200px;
   float: left;
+  border-right: 1px solid #AAAAAA;
+  border-left: 1px solid #AAAAAA;
+  background-color: #E7E7E7;
   }
 /*right sidebar.*/
 .right_sidebar {
   width: 100px;
   float: right;
+  border-right: 1px solid #AAAAAA;
+  border-left: 1px solid #AAAAAA;
+  background-color: #E7E7E7;
   }
   
 /*Container for the sidebar image.*/
