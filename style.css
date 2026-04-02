@@ -61,8 +61,13 @@ body {
   height: auto;
   }
   
-/*Wrapper for the sidebar.*/
-.sidebar {
+/*left sidebar.*/
+.left_sidebar {
+  width: 200px;
+  float: left;
+  }
+/*right sidebar.*/
+.right_sidebar {
   width: 200px;
   float: left;
   }
@@ -80,6 +85,7 @@ body {
 /*This is where the title, navbar, and main content all go.*/
 .main-wrapper {
   margin-left: 150px;
+  margin-right: 150px;
   }
   
 /*Two columns by default. The "single-column" class can be added to make it one column.*/
