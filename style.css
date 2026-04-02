@@ -29,15 +29,15 @@ body {
 
 /*Some fancy code for fun, to add special characters around the navigation links. Change content to "" if you don't want these.*/
 .links li:before {
-  content: "ã€Œ";
+  content: "";
   }
   
 .links li:after {
-  content: "ã€ âˆ· ";
+  content: "";
   }
   
 .links .last:after {
-  content: "ã€";
+  content: "";
   }
   
 .links li:before, .links li:after {
@@ -46,7 +46,7 @@ body {
   
 /*Basic box code that is used for all content boxes on the page.*/
 .box {
-  border: 1px solid black;
+  border: 0px solid black;
   padding: 0.5em 1em;
   }
   
@@ -69,7 +69,7 @@ body {
   
 /*Container for the sidebar image.*/
 .sidebar-image {
-  border: 1px solid black;
+  border: 0px solid black;
   }
   
 /*Remove extra padding line at the bottom of the image.*/
