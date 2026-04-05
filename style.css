@@ -1,11 +1,12 @@
 body {
-  margin: 15px;
+  margin: 0px;
   }
   
 /*Everything goes inside here.*/
 .wrapper {
-  width: 1000px;
-  margin: 0 auto;
+  width: 90%;
+  height: 100vh;
+  margin: auto;
   }
   
 .sidebar-img, .footer, .title, .links, .box {
@@ -70,19 +71,21 @@ body {
   
 /*left sidebar.*/
 .left_sidebar {
-  width: 200px;
+  width: 15%;
   float: left;
   border-right: 1px solid #AAAAAA;
   border-left: 1px solid #AAAAAA;
   background-color: #E7E7E7;
+  height: calc(90vh);
   }
 /*right sidebar.*/
 .right_sidebar {
-  width: 100px;
+  width: 10%;
   float: right;
   border-right: 1px solid #AAAAAA;
   border-left: 1px solid #AAAAAA;
   background-color: #E7E7E7;
+  height: calc(90vh);
   }
   
 /*Container for the sidebar image.*/
@@ -97,14 +100,15 @@ body {
   
 /*This is where the title, navbar, and main content all go.*/
 .main-wrapper {
-  margin-left: 100px;
-  margin-right: 100px;
-  }
+  width: 75%;
+  margin-left: 16%;
+  margin-right: 16%;
+}
   
 /*Two columns by default. The "single-column" class can be added to make it one column.*/
 .main {
   columns: 3;
-  column-gap: 25px;
+  column-gap: normal;
   }
   
 /*Make sure boxes don't spread over multiple columns.*/
@@ -113,7 +117,8 @@ body {
   }
   
 .single-column {
-  columns: 1;
+  columns: 4;
+
   }
   
 .footer {
@@ -160,3 +165,4 @@ body {
     }
   
   }
+
